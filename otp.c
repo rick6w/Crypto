@@ -7,6 +7,8 @@ void main(int argc, char** args)
   FILE *in, *out, *key;
   int c_in, c_out, c_key;
 
+  printf("\nONE-TIME PAD ENCRYPTOR ;)\n\n");
+
   if(argc==3)
   {
     if((in=fopen(args[1], "r")) == NULL)
